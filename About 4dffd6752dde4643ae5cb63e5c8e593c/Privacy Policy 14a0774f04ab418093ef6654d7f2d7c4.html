@@ -1,0 +1,646 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Privacy Policy</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	text-indent: -1.7em;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(96, 96, 98, 0.93);
+	fill: rgba(96, 96, 98, 0.93);
+}
+.highlight-brown {
+	color: rgba(174, 102, 29, 1);
+	fill: rgba(174, 102, 29, 1);
+}
+.highlight-orange {
+	color: rgba(210, 82, 22, 1);
+	fill: rgba(210, 82, 22, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(62, 143, 53, 1);
+	fill: rgba(62, 143, 53, 1);
+}
+.highlight-blue {
+	color: rgba(33, 131, 190, 1);
+	fill: rgba(33, 131, 190, 1);
+}
+.highlight-purple {
+	color: rgba(151, 93, 190, 1);
+	fill: rgba(151, 93, 190, 1);
+}
+.highlight-pink {
+	color: rgba(203, 62, 132, 1);
+	fill: rgba(203, 62, 132, 1);
+}
+.highlight-red {
+	color: rgba(208, 60, 60, 1);
+	fill: rgba(208, 60, 60, 1);
+}
+.highlight-gray_background {
+	background: rgba(234, 234, 235, 0.93);
+}
+.highlight-brown_background {
+	background: rgba(213, 130, 38, 0.13);
+}
+.highlight-orange_background {
+	background: rgba(252, 103, 27, 0.13);
+}
+.highlight-yellow_background {
+	background: rgba(253, 183, 63, 0.13);
+}
+.highlight-teal_background {
+	background: rgba(76, 169, 66, 0.13);
+}
+.highlight-blue_background {
+	background: rgba(45, 159, 226, 0.13);
+}
+.highlight-purple_background {
+	background: rgba(187, 123, 230, 0.13);
+}
+.highlight-pink_background {
+	background: rgba(255, 85, 163, 0.13);
+}
+.highlight-red_background {
+	background: rgba(255, 82, 71, 0.13);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(96, 96, 98, 0.93);
+	fill: rgba(96, 96, 98, 0.93);
+}
+.block-color-brown {
+	color: rgba(174, 102, 29, 1);
+	fill: rgba(174, 102, 29, 1);
+}
+.block-color-orange {
+	color: rgba(210, 82, 22, 1);
+	fill: rgba(210, 82, 22, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(62, 143, 53, 1);
+	fill: rgba(62, 143, 53, 1);
+}
+.block-color-blue {
+	color: rgba(33, 131, 190, 1);
+	fill: rgba(33, 131, 190, 1);
+}
+.block-color-purple {
+	color: rgba(151, 93, 190, 1);
+	fill: rgba(151, 93, 190, 1);
+}
+.block-color-pink {
+	color: rgba(203, 62, 132, 1);
+	fill: rgba(203, 62, 132, 1);
+}
+.block-color-red {
+	color: rgba(208, 60, 60, 1);
+	fill: rgba(208, 60, 60, 1);
+}
+.block-color-gray_background {
+	background: rgba(234, 234, 235, 0.93);
+}
+.block-color-brown_background {
+	background: rgba(213, 130, 38, 0.13);
+}
+.block-color-orange_background {
+	background: rgba(252, 103, 27, 0.13);
+}
+.block-color-yellow_background {
+	background: rgba(253, 183, 63, 0.13);
+}
+.block-color-teal_background {
+	background: rgba(76, 169, 66, 0.13);
+}
+.block-color-blue_background {
+	background: rgba(45, 159, 226, 0.13);
+}
+.block-color-purple_background {
+	background: rgba(187, 123, 230, 0.13);
+}
+.block-color-pink_background {
+	background: rgba(255, 85, 163, 0.13);
+}
+.block-color-red_background {
+	background: rgba(255, 82, 71, 0.13);
+}
+.select-value-color-gray { background-color: rgba(234, 234, 235, 0.93); }
+.select-value-color-brown { background-color: rgba(213, 130, 38, 0.13); }
+.select-value-color-orange { background-color: rgba(252, 103, 27, 0.13); }
+.select-value-color-yellow { background-color: rgba(253, 183, 63, 0.13); }
+.select-value-color-green { background-color: rgba(76, 169, 66, 0.13); }
+.select-value-color-blue { background-color: rgba(45, 159, 226, 0.13); }
+.select-value-color-purple { background-color: rgba(187, 123, 230, 0.13); }
+.select-value-color-pink { background-color: rgba(255, 85, 163, 0.13); }
+.select-value-color-red { background-color: rgba(255, 82, 71, 0.13); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="14a0774f-04ab-4180-93ef-6654d7f2d7c4" class="page sans"><header><div class="page-header-icon undefined"><span class="icon">📄</span></div><h1 class="page-title">Privacy Policy</h1></header><div class="page-body"><p id="1894ee3c-de7e-4229-bf7b-5236f2faf6e6" class="block-color-gray">Last updated: September 27, 2021</p><p id="b2bf59a8-684e-417f-bdf5-4e2dd256ac7e" class="">
+</p><p id="b53f14da-4532-4fd4-b5c5-2da76e49064c" class="">This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.</p><p id="9ee3a290-6d4d-43c3-b700-9cdec8df574c" class="">We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.</p><h1 id="5cc95520-d6c2-4516-abc8-f78e61be6cb1" class=""><strong>Interpretation and Definitions</strong></h1><h2 id="27d92db3-a3b9-4606-a684-888ac18805ef" class=""><strong>Interpretation</strong></h2><p id="9693ab04-7641-4dc8-ad68-72e7a8d8b7dc" class="">The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.</p><h2 id="be708ffc-39c4-412b-bfb4-e1dd57b71947" class=""><strong>Definitions</strong></h2><p id="d468afdc-6e71-4bd8-8386-0186cc83dad7" class="">For the purposes of this Privacy Policy:</p><ul id="43c21eb5-3d4f-4cad-ac33-316fe221f1dc" class="bulleted-list"><li style="list-style-type:disc"><strong>Account</strong> means a unique account created for You to access our Service or parts of our Service.</li></ul><ul id="978431d9-a393-4ad7-baf2-162b682f26ac" class="bulleted-list"><li style="list-style-type:disc"><strong>Company</strong> (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to the developers of Deep Ping.</li></ul><ul id="af90bb4a-533d-4650-a68e-07cf4e520e50" class="bulleted-list"><li style="list-style-type:disc"><strong>Device</strong> means any device that can access the Service such as a computer, a cellphone or a digital tablet.</li></ul><ul id="ac6f3bc3-fd49-4ef1-966c-9c99314d0e43" class="bulleted-list"><li style="list-style-type:disc"><strong>Personal Data</strong> is any information that relates to an identified or identifiable individual.</li></ul><ul id="c9dc1b22-2557-4767-b2b5-b771723a1815" class="bulleted-list"><li style="list-style-type:disc"><strong>Service</strong> refers to the software program provided by the Company downloaded by You on any electronic device, named Deep Ping.</li></ul><ul id="35479e6d-89e9-433b-86aa-9d4172a9af0c" class="bulleted-list"><li style="list-style-type:disc"><strong>Service Provider</strong> means any natural or legal person who processes the data on behalf of the Company. It refers to third-party companies or individuals employed by the Company to facilitate the Service, to provide the Service on behalf of the Company, to perform services related to the Service or to assist the Company in analyzing how the Service is used.</li></ul><ul id="177ce3b9-aa2f-46fd-a8a8-52d426cde8ea" class="bulleted-list"><li style="list-style-type:disc"><strong>Usage Data</strong> refers to data collected automatically, either generated by the use of the Service or from the Service infrastructure itself (for example, the duration of a page visit).</li></ul><ul id="91b76322-bed6-40d7-bcf7-e7c8000b750e" class="bulleted-list"><li style="list-style-type:disc"><strong>You</strong> means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.</li></ul><h1 id="d4ade0ce-7160-433d-a048-2d6d4b74bfe8" class=""><strong>Collecting and Using Your Personal Data</strong></h1><h2 id="8d04892a-c383-4925-a2b4-a73203aa574c" class=""><strong>Types of Data Collected</strong></h2><h3 id="aab4f06c-ce51-48dd-bd89-3cf1dad9fff3" class=""><strong>Personal Data</strong></h3><p id="a821d15d-8112-42cc-bdae-e8cbbc738d49" class="">While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You. Personally identifiable information may include, but is not limited to:</p><ul id="b648ab6a-d683-4406-aed6-67a4d7e444d1" class="bulleted-list"><li style="list-style-type:disc">Email address</li></ul><ul id="b937208f-d146-4b74-af58-3f06425b38c2" class="bulleted-list"><li style="list-style-type:disc">First name and last name</li></ul><ul id="f8bd8d43-ecb2-4d5c-af34-7410a686c664" class="bulleted-list"><li style="list-style-type:disc">Usage Data</li></ul><h3 id="6df4f492-e21b-4ba5-aa68-c8625f032bbb" class=""><strong>Usage Data</strong></h3><p id="41f3b7c7-ce95-4817-8425-1dfc6e8ad982" class="">Usage Data is collected automatically when using the Service. It comprises information on how you use Deep Ping but it does not include any Personal Data.</p><p id="fdf5fcba-973d-44ca-924a-4c50c192357c" class="">Usage Data may include information such as the pages of our Service You visit, the time and date of Your visit, the time spent on those pages, and other diagnostic data.</p><h2 id="b307a941-55e1-4eae-871b-5dfc7874cd2c" class=""><strong>Use of Your Personal Data</strong></h2><p id="3910ebf1-1f49-425b-a15a-557178dafcf1" class="">The Company may use Personal Data for the following purposes:</p><ul id="c4c81380-edd2-45f3-a87a-eee55d745e20" class="bulleted-list"><li style="list-style-type:disc"><strong>To provide and maintain our Service</strong>, including to monitor the usage of our Service.</li></ul><ul id="3fdf087b-4834-4f3d-b86b-bb373eb2f85c" class="bulleted-list"><li style="list-style-type:disc"><strong>To manage Your Account:</strong> to manage Your registration as a user of the Service. The Personal Data You provide can give You access to different functionalities of the Service that are available to You as a registered user.</li></ul><ul id="c089bb50-7de5-4324-9025-992ed5628ec1" class="bulleted-list"><li style="list-style-type:disc"><strong>For the performance of a contract:</strong> the development, compliance and undertaking of the purchase contract for the products, items or services You have purchased or of any other contract with Us through the Service.</li></ul><ul id="3ff78d90-7262-4427-8a97-71dfc76b8d08" class="bulleted-list"><li style="list-style-type:disc"><strong>For other purposes</strong>: We may use Your information for other purposes, such as data analysis, identifying usage trends, and to evaluate and improve our Service, products, and your experience.</li></ul><p id="b10c128a-9819-47dd-9401-98311b5c2fc8" class="">Your personal information will never be shared with any entity including Service Providers, business partners, and other users without Your consent except where required by law.</p><h2 id="3fd7f283-17a9-4659-ace5-188e347eeceb" class=""><strong>Retention of Your Personal Data</strong></h2><p id="cf76bf1e-6796-4bc2-afa0-bdd9d2f4ecfb" class="">The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use Your Personal Data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal agreements and policies.</p><p id="c05f9caa-2632-472f-a2cb-78efa0ce6488" class="">The Company will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period of time, except when this data is used to strengthen the security or to improve the functionality of Our Service, or We are legally obligated to retain this data for longer time periods.</p><h2 id="828a6c17-7923-4e2a-ab4d-98917f3c1706" class=""><strong>Transfer of Your Personal Data</strong></h2><p id="615da58b-99f3-4000-864a-9d8c8229c331" class="">Your information, including Personal Data, is processed at the Company&#x27;s operating offices and in any other places where the parties involved in the processing are located. It means that this information may be transferred to — and maintained on — computers located outside of Your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from Your jurisdiction.</p><p id="af2e54eb-32ee-4f00-b29e-ea469f21ae63" class="">Your consent to this Privacy Policy followed by Your submission of such information represents Your agreement to that transfer.</p><p id="ea0beebe-42ff-4ea1-9d4d-adbae94c1647" class="">The Company will take all steps reasonably necessary to ensure that Your data is treated securely and in accordance with this Privacy Policy and no transfer of Your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of Your data and other personal information.</p><h2 id="faf7e73f-0da7-4585-973f-53e5d4d40c2e" class=""><strong>Disclosure of Your Personal Data</strong></h2><h3 id="fda34011-637f-460e-9300-5d8c87b22b64" class=""><strong>Business Transactions</strong></h3><p id="1648b70b-77f9-408e-92df-ccffa66cf11b" class="">If the Company is involved in a merger, acquisition or asset sale, Your Personal Data may be transferred. We will provide notice before Your Personal Data is transferred and becomes subject to a different Privacy Policy.</p><h3 id="507ab3b0-bfe7-4edd-a4ac-89f8dd244b79" class=""><strong>Law enforcement</strong></h3><p id="cdb8137d-d9c4-40bc-a8a9-11b851068ee4" class="">Under certain circumstances, the Company may be required to disclose Your Personal Data if required to do so by law or in response to valid requests by public authorities (e.g. a court or a government agency).</p><h3 id="40b5aa66-c479-4450-b2ab-156dcb29a840" class=""><strong>Other legal requirements</strong></h3><p id="09af48f5-d90a-4ebd-9941-89ec78829602" class="">The Company may disclose Your Personal Data in the good faith belief that such action is necessary to:</p><ul id="cb521adb-76b2-4059-bf60-746135546f96" class="bulleted-list"><li style="list-style-type:disc">Comply with a legal obligation</li></ul><ul id="009f27ea-7d2f-4d34-9780-081d8c83279d" class="bulleted-list"><li style="list-style-type:disc">Protect and defend the rights or property of the Company</li></ul><ul id="28a2eb37-c928-44e6-8f7f-5532a80ee286" class="bulleted-list"><li style="list-style-type:disc">Prevent or investigate possible wrongdoing in connection with the Service</li></ul><ul id="7a3ad791-14cf-4f85-83fa-0ba7e6e4a860" class="bulleted-list"><li style="list-style-type:disc">Protect the personal safety of Users of the Service or the public</li></ul><ul id="80314eef-1256-4228-9de2-0b0e5285d295" class="bulleted-list"><li style="list-style-type:disc">Protect against legal liability</li></ul><h2 id="debd3c47-e415-4797-85d6-22d36b48135a" class=""><strong>Security of Your Personal Data</strong></h2><p id="6c67de42-4a09-4a43-804f-ee0ac81e0ade" class="">The security of Your Personal Data is important to Us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While We strive to use commercially acceptable means to protect Your Personal Data, We cannot guarantee its absolute security.</p><h1 id="e769089b-f48f-430d-a917-c94e42ac0a3b" class=""><strong>Children&#x27;s Privacy</strong></h1><p id="9203beee-7bd8-4608-8447-fcd0f61c1092" class="">Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If You are a parent or guardian and You are aware that Your child has provided Us with Personal Data, please contact Us. If We become aware that We have collected Personal Data from anyone under the age of 13 without verification of parental consent, We take steps to remove that information from Our servers.</p><p id="0c5cbf3c-f8be-4473-9ecf-555eb27439b9" class="">If We need to rely on consent as a legal basis for processing Your information and Your country requires consent from a parent, We may require Your parent&#x27;s consent before We collect and use that information.</p><h1 id="d73b4dd8-2824-4214-bcba-29d47bd53e94" class=""><strong>Changes to this Privacy Policy</strong></h1><p id="14df0517-9f4d-4c00-8c5f-9f9caff3ecf3" class="">We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this page.</p><p id="e09a1017-d75e-4c6e-9642-d4a449cd0371" class="">We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and update the &quot;Last updated&quot; date at the top of this Privacy Policy.</p><p id="004d8f70-5de9-4a69-9a9f-adc920e6d843" class="">You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p><h1 id="a9dae4f6-3d9f-43fa-a588-d1b0f690ba69" class=""><strong>Contact Us</strong></h1><p id="afb0f16b-f0c9-43dd-a91f-fd770b8983d1" class="">If you have any questions about this Privacy Policy, You can contact Us by emailing contact.deepping@gmail.com</p></div></article></body></html>
